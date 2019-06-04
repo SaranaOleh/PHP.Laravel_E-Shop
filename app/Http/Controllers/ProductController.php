@@ -405,7 +405,7 @@ class ProductController extends Controller
 
             $product->attributes()->attach($attachedAttrs);
 
-//            сдесь добавление значений
+//            здесь добавление значений
 
             DB::table('images')->insert($arrayGallery);
 
@@ -702,7 +702,7 @@ class ProductController extends Controller
 
             $product->attributes()->attach($attachedAttrs);
 
-//            сдесь добавление значений
+//            здесь добавление значений
 
             DB::table('images')->insert($arrayGallery);
 
